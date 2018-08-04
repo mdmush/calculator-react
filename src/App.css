@@ -1,0 +1,113 @@
+body, p{
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.show-row{
+  
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.show-grid{
+    width: 28%;
+    border: 1px solid #f2274f;
+    background: #fff;
+    margin: 10%;
+        
+}
+
+.show-col{
+    padding-right: 0px;
+    padding-left: 0px;
+    border: 1px solid #c21d3d;
+}
+
+.numberButton{
+  background: #fff;
+    border: none;
+    text-shadow: none;
+    box-shadow: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+
+.numberButton:active:hover {
+  background: #fff;
+}
+
+.numberButton p{
+  color: #000;
+    font-size: 50px;
+}
+
+.symbolButton{
+  background: #f2274f;
+    border: none;
+    text-shadow: none;
+    box-shadow: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+
+.symbolButton:active:hover{
+  background: #f2274f;
+}
+
+.symbolButton p{
+  color: #fff;
+    font-size: 50px;
+}
+
+.outputScreen {
+    background: #433437;
+    padding: 40px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    font-size: 30px;
+    text-align: right;
+    color: #fff;
+}
+
+p.smallText{
+  font-size: 14px;
+    color: #9d8a8d;
+}
+
+p.bigText {
+    font-weight: 600;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
